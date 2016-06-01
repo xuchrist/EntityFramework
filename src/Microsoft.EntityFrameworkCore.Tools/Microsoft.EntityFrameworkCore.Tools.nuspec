@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <tags>"Entity Framework" "Entity Framework Core" EF Data O/RM</tags>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <developmentDependency>true</developmentDependency>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.0">
+        <dependency id="Microsoft.DotNet.Cli.Utils" version="[1.0.0, )" />
+        <dependency id="Microsoft.DotNet.ProjectModel" version="[1.0.0, )" />
+        <dependency id="Microsoft.NETCore.App" version="[1.0.0, )" />
+        <dependency id="Microsoft.Extensions.CommandLine" version="[1.0.0, )" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="[4.0.0, )" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\netcoreapp1.0\dotnet-ef.dll" target="lib\netcoreapp1.0\" />
+    <file src="bin\$configuration$\netcoreapp1.0\dotnet-ef.runtimeconfig.json" target="lib\netcoreapp1.0\" />
+    <file src="bin\$configuration$\netcoreapp1.0\dotnet-ef.xml" target="lib\netcoreapp1.0\" />
+    <file src="tools\**\*.*" target="tools\" />
+    <file src="..\Microsoft.EntityFrameworkCore.Tools.Console\bin\$configuration$\net451\ef.exe" target="tools\net451\" />
+    <file src="..\Microsoft.EntityFrameworkCore.Tools.Console\bin\$configuration$\netstandard1.3\ef.dll" target="tools\netstandard1.3\" />
+    <file src="_._" target="lib\netcore50\_._" />
+    <file src="_._" target="lib\net451\_._" />
+  </files>
+</package>
