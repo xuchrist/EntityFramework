@@ -6,8 +6,8 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>51a4dc71-404e-40ae-bbb0-daf64087db40</ProjectGuid>
-    <RootNamespace>Microsoft.EntityFrameworkCore.Tools.Core.FunctionalTests</RootNamespace>
+    <ProjectGuid>27f77706-090d-481c-87f6-a86873cd261b</ProjectGuid>
+    <RootNamespace>Microsoft.EntityFrameworkCore.Design.Tests</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\</OutputPath>
   </PropertyGroup>
